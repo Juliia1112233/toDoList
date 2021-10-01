@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(177, 168, 255);
+    text-align: center;
+}
+
+.head{
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+input{
+    font-size: 20px;
+    padding-left: 15px;
+    border: none;
+}
+
+.button{
+    display: flex;
+    margin-left: 10px;
+}
+
+.buttonAdd{
+    font-size: 45px;
+    color: rgb(22, 57, 255);
+    margin-left: 10px;
+    background-color: white;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.inputForm{
+    width: 300px;
+    height: 38px;
+}
+
+.buttonAdd:hover{
+    cursor: pointer;
+    background-color: rgb(52, 181, 255);
+    color: white;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.taskElem{
+    background-color: rgb(213, 216, 255);
+    margin: 10px;
+    padding-left: 15px;
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+ 
